@@ -1,5 +1,3 @@
-# iyf-s10-week-06-nimodee
-
 # Week 6: Asynchronous Javascript
 
 *Author:* Daisy Wairimu  
