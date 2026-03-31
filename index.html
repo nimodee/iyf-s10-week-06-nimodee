@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week 6 Async JS</title>
+</head>
+<body>
+    <h1>Week 6 Async JavaScript Tasks</h1>
+    <link rel="stylesheet"href="styles.css">
+
+    <h2>User Directory</h2>
+    
+<!-- Search input -->
+<input type="text" id="search" placeholder="Search by name or email..." />
+
+ <label for="sort-name">Sort by name:</label>
+<select id="sort-name">
+    <option value="asc">A-Z</option>
+    <option value="desc">Z-A</option>
+</select>
+
+<label for="filter-city">Filter by city:</label>
+<select id="filter-city">
+    <option value="all">All Cities</option>
+</select>
+
+<div id="loading">Loading...</div>
+<div id="error" class="hidden"></div>
+<div id="users-container"></div>
+     
+<div id="app">
+
+    <h1>User Directory</h1>
+    <div id="loading">Loading...</div>
+    <div id="error" class="hidden"></div>
+    <div id="users-container"></div>
+
+
+    <h2>Create a New Post</h2>
+    <form id="post-form">
+        <input type="text" id="post-title" placeholder="Title" required>
+        <textarea id="post-body" placeholder="Body" required></textarea>
+        <button type="submit">Submit Post</button>
+    </form>
+
+    <div id="post-result"></div>
+</div>
+
+    <!-- Link your JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
